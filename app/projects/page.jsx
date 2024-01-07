@@ -9,14 +9,14 @@ export default async function ProjectsPage() {
   return (
     <div className={styles.cardWrapper}>
       {/* down here you find most important projects */}
-      {/* <h1 className="headText">Highlighted Projects</h1>
+      <h1 className="headText">Highlighted Projects</h1>
       <div className={styles.mapWrapper}>
         {filteredProjects.map((project, index) => (
           <div key={project.id}>
             <Card {...filteredProjects} />
           </div>
         ))}
-      </div> */}
+      </div>
 
       {/* down here you find map of all projects */}
       <h2 className="headText">from walking sticks to web development 2023</h2>

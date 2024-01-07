@@ -1,11 +1,12 @@
-// pages/projects/[projectId].js
+import Titles from "./components/titles";
+import PhotoInfo from "./components/photoInfo";
+import styles from "./page.module.css";
+import { getProject } from "@/lib/projectsData";
 
-import Titles from "../../components/titles";
-import PhotoInfo from "../../components/photoInfo";
-import styles from "../../styles/page.module.css";
-import { getProject, getAllProjectIds } from "../../lib/projectsData";
+export default async function Project({ params }) {
+  const projectId = parseInt(params.projectId);
+  const data = await getProject(projectId);
 
-export default function Project({ data }) {
   return (
     <main>
       {data ? (
@@ -44,23 +45,4 @@ export default function Project({ data }) {
       )}
     </main>
   );
-}
-
-export async function getStaticPaths() {
-  const paths = await getAllProjectIds();
-  return {
-    paths,
-    fallback: false, // or true if you want to enable incremental static regeneration
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const projectId = parseInt(params.projectId);
-  const data = await getProject(projectId);
-
-  return {
-    props: {
-      data,
-    },
-  };
 }

@@ -1,11 +1,10 @@
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-  output: "export",
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+module.exports = nextConfig;
+
+module.exports = {
   images: {
     domains: ["github.com"],
   },
 };
-
-module.exports = nextConfig;

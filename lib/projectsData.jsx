@@ -1,15 +1,14 @@
-export async function getAllProjectIds() {
-  // Fetch project data and extract project IDs
-  const response = await fetch(
-    "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectData.json"
-  );
-  const data = await response.json();
-
-  const paths = data.map((project) => ({
-    params: { projectId: project.id.toString() },
-  }));
-
-  return paths;
+export async function getProjects() {
+  try {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectData.json"
+    );
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching projects:", error);
+    return [];
+  }
 }
 export async function getFilteredProjects() {
   try {
