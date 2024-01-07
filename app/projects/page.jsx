@@ -4,7 +4,7 @@ import { getProjects, getFilteredProjects } from "../../lib/projectsData"; // es
 
 export default async function ProjectsPage() {
   const projects = await getProjects();
-  const filteredProjects = await getFilteredProjects();
+  // const filteredProjects = await getFilteredProjects();
 
   return (
     <div className={styles.cardWrapper}>

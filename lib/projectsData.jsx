@@ -43,11 +43,11 @@ export async function getProject(id) {
     if (project) {
       return project;
     } else {
-      console.error(`Meal with slug ${slug} not found`);
+      console.error(`Project with slug ${slug} not found`);
       return null;
     }
   } catch (error) {
-    console.error("Error fetching meal:", error);
+    console.error("Error fetching project:", error);
     return null;
   }
 }
