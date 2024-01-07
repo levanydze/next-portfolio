@@ -50,6 +50,9 @@
     width: 200px;
     top: 50%;
   }
+  .meditationPhoto {
+    padding-top: 140px;
+  }
 }
 
 /* media 320 */
