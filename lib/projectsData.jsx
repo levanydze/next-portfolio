@@ -10,28 +10,6 @@ export async function getProjects() {
     return [];
   }
 }
-export async function getFilteredProjects() {
-  try {
-    const response = await fetch(
-      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatas.json"
-    );
-    const data = await response.json();
-
-    console.log("All projects:", data);
-
-    // Filter projects based on the 'important' property
-    const filteredProjects = data.filter((project) => {
-      return project.important === true;
-    });
-
-    console.log("Filtered projects:", filteredProjects);
-
-    return filteredProjects;
-  } catch (error) {
-    console.error("Error fetching and filtering projects:", error);
-    return [];
-  }
-}
 
 export async function getProject(id) {
   try {

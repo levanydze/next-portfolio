@@ -12,11 +12,10 @@ export default function Card({
   date,
   id,
   important,
+  filter,
 }) {
   return (
-    <div
-      className={`${styles.mainWrapper} ${important ? styles.important : ""}`}
-    >
+    <div className={`${styles.mainWrapper} ${filter ? styles.important : ""}`}>
       <Link className={styles.linkWrapper} href={`/projects/${id}`}></Link>
       <div className={styles.cardWrapper}>
         <h3 className={styles.date}>{date}</h3>
