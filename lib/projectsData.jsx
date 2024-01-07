@@ -1,7 +1,7 @@
 export async function getProjects() {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDataa.json"
+      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatas.json"
     );
     const data = await response.json();
     return data;
@@ -13,7 +13,7 @@ export async function getProjects() {
 export async function getFilteredProjects() {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDataa.json"
+      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatas.json"
     );
     const data = await response.json();
 
@@ -36,7 +36,7 @@ export async function getFilteredProjects() {
 export async function getProject(id) {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDataa.json"
+      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatas.json"
     );
     const data = await response.json();
     const project = data.find((project) => project.id === id);
