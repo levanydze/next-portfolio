@@ -11,8 +11,50 @@
 .menuWrapper {
   font-size: 15px;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
+
+/* down here is active navigation styles */
+.link {
+  letter-spacing: 1px;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 2.5);
+  display: flex;
+  color: var(--lighter);
+  position: relative;
+}
+
+.link:hover {
+  color: var(--light);
+  scale: 1.1;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 2px;
+  bottom: -3px;
+  width: 0%;
+  background-color: var(--undermenu);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.link.active {
+  color: var(--light);
+  scale: 1.2;
+}
+
+.link.active:after {
+  background-color: var(--undermenu);
+  width: 100%;
+}
+
+/* up there are ative navigation styles */
 
 /* // media  */
 

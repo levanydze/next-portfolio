@@ -15,6 +15,7 @@
   --dark: rgb(34, 34, 34);
   --darkest: rgb(0, 0, 0);
   --card: rgb(255, 247, 255);
+  --undermenu: rgb(157, 0, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,4 +51,8 @@ body {
   margin-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.active {
+  color: var(--lightest);
 }
