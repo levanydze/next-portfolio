@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "date": "January",
+    "slug": "January",
     "image": "https://github.com/levanydze/portfoliosupport/blob/main/walkstick.jpg?raw=true",
     "title": "Injury while snowboarding",
     "description": "Lack of powder snow and frozen slopes ended with me having an injured knee.",
@@ -20,11 +20,11 @@
     "github": "",
     "projectWeb": "",
     "gitIcon": "",
-    "someText": "I love nature, especially mountains, in any season. I am from Georgia, where we experience all four seasons equally. I used to visit every year, where my friends and family are waiting for me. Normally, I expect lots of powder snow there so I can float on the snow just like in clouds, but not that year. All mountains of Europe were dry, and there was no snow as normal. So, frozen slopes and lack of powder were one of the biggest reasons for my injury that year."
+    "someText": "I love nature, especially mountains, in any season. I am from Georgia, where we experience all four seasons equally. I use to visit my country every year, where my friends and family are waiting for me. Normally, we expect lots of powder snow there, so I can float on the snow just like in clouds, but not that year. All mountains of Europe were dry, and there was no snow as usual. So, frozen slopes and the lack of powder were some of the biggest reasons for my injury."
   },
   {
     "id": 2,
-    "date": "February",
+    "slug": "February",
     "image": "https://github.com/levanydze/portfoliosupport/blob/main/sketch.jpg?raw=true",
     "title": "First Steps",
     "description": "Dealing with a knee injury and the subsequent actions I took since January.",
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "date": "March",
+    "slug": "March",
     "image": "https://github.com/levanydze/portfoliosupport/blob/main/restaurant1.jpg?raw=true",
     "title": "Practice",
     "description": "HTML, CSS, SASS, and some JS.",
@@ -163,6 +163,7 @@
   },
   {
     "id": 8,
+    "important": true,
     "date": "September",
     "image": "https://github.com/levanydze/portfoliosupport/blob/main/artofl.jpg?raw=true",
     "title": "Now, Let's Get Serious",
@@ -187,6 +188,7 @@
   },
   {
     "id": 9,
+    "important": true,
     "date": "December",
     "image": "https://github.com/levanydze/portfoliosupport/blob/main/LEVANIDZE.jpg?raw=true",
     "title": "NextJs",
@@ -203,9 +205,9 @@
     "courseLink": "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
     "project": true,
     "projectTitle": "My Portfolio",
-    "github": "XXXXXXXXX",
+    "github": "https://github.com/levanydze/next-portfolio",
     "projectWeb": "https://levanidze.com",
     "gitIcon": "https://github.com/levanydze/portfoliosupport/blob/main/git.png?raw=true",
-    "detDescription": "Moving from native React to Next.js was a smooth transition. I appreciated the simplicity of file-based and dynamic routing compared to native React. The most interesting part of the project is the ''Projects'2' section, where I aimed to implement dynamic routing with updatable information through a JSON file. I also focused on improving the organization of my styling compared to previous projects. It's worth mentioning that my solid knowledge of Photoshop and AI significantly contributed to creating a cartoonized version of my pictures, making my portfolio design better."
+    "detDescription": "Simplicity of file-based and dynamic routing compared to native React. The application is stored on GitHub and deployed by Vercel. In this project, you find how I fetch server-side data. The most interesting part of the project is the 'Projects' section, where Next.js provides dynamic routing with fetched data information through a JSON file stored on a separate GitHub repository. I also focused on improving the organization of my styling compared to previous projects. It's worth mentioning that my solid knowledge of Photoshop is helping to make my portfolio design better."
   }
 ]
