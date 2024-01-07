@@ -1,0 +1,18 @@
+.mainWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--medium);
+  padding: 40px 20px 30px 20px;
+}
+
+.middleWrapper {
+  display: flex;
+  font-size: 30px;
+  gap: 20px;
+}
+@media (max-width: 560px) {
+  .rightWrapper {
+    display: none;
+  }
+}

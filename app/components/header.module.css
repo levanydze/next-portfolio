@@ -1,0 +1,43 @@
+.wrapper {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacct {
+  font-size: 40px;
+}
+
+.logo {
+  font-size: 20px;
+  margin: 20px 0 0 20px;
+  color: var(--light);
+}
+
+/* // media  */
+
+/* media 1920 */
+
+/* media 1200 */
+
+/* media 1024 */
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+}
+
+/* media 768 */
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
+
+/* media 480 */
+@media screen and (max-width: 480px) {
+}
+
+/* media 320 */

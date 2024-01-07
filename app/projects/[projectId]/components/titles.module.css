@@ -1,0 +1,31 @@
+.pageHeadTitle {
+  color: var(--lighter);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+
+.goBack {
+  color: var(--medium);
+  margin: -20px 0px 0px 20px;
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  font-size: 55px;
+}
+
+.titleDescWrap {
+  display: block;
+  color: var(--lighter);
+  margin-top: 20px;
+}
+.projectTitle {
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.descriptionTitle {
+  text-align: center;
+}

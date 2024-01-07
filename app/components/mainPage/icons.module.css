@@ -1,0 +1,99 @@
+.iconsWrapper {
+  position: absolute;
+  width: 100%;
+}
+.iconLines {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.7%;
+  user-select: none;
+}
+
+.lineOne {
+  gap: 30%;
+}
+.lineTwo {
+  gap: 5%;
+}
+.lineThree {
+  gap: 70%;
+}
+.lineFour {
+  gap: 30%;
+}
+.lineFive {
+  gap: 60%;
+}
+.lineSex {
+  gap: 80%;
+}
+
+.iconHtml {
+  width: 6%;
+  height: 100%;
+  max-width: 45px;
+}
+.iconCss {
+  height: 100%;
+  max-width: 50px;
+  width: 6%;
+}
+.iconJs {
+  height: 100%;
+  max-width: 50px;
+  width: 6%;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.iconTailwind {
+  height: auto;
+  width: 30%;
+  margin-left: 10%;
+  max-width: 250px;
+}
+.iconPs {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconLr {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconNextjs {
+  height: auto;
+  width: 10%;
+  max-width: 70px;
+}
+.iconReact {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconSass {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconGit {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconVs {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconNode {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+}
+.iconXd {
+  height: 100%;
+  width: 6%;
+  max-width: 50px;
+  transition: all 0.3s ease;
+}

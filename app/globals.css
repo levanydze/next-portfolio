@@ -6,22 +6,48 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --gradient-bg: linear-gradient(105deg, rgb(40, 40, 40) 0%, rgb(5, 5, 5) 100%);
+  --lightest: rgb(255, 255, 255);
+  --light: rgb(239, 239, 239);
+  --lighter: rgb(196, 196, 196);
+  --medium: rgb(131, 131, 131);
+  --darker: rgb(80, 80, 80);
+  --dark: rgb(34, 34, 34);
+  --darkest: rgb(0, 0, 0);
+  --card: rgb(255, 247, 255);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 6, 0;
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: var(--gradient-bg);
+  min-height: 100vh;
+}
+
+.gradientBg {
+  background: var(--gradient-bg);
+}
+
+.myContainer {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.02);
+  min-height: 100vh;
+}
+
+.headText {
+  color: var(--light);
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 200;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

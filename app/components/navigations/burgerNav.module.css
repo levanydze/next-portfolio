@@ -1,0 +1,70 @@
+.barSpace {
+  padding-top: 50px;
+}
+.mainWrapper {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  z-index: 5;
+  transition: 0.5s cubic-bezier(0.68, 0, 0.27, 0);
+}
+.menuWrapper {
+  color: var(--light);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark);
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 0;
+  height: 100vh;
+  transform: translateY(-110%); /* Fix the typo here */
+  transition: 0.5s cubic-bezier(0.68, 0, 0.27, 0);
+}
+
+.activeNav {
+  top: 0;
+  transform: translateY(0); /* Fix the typo here */
+  position: fixed;
+}
+.barDiv {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.menuList {
+  padding: 10px 0;
+  margin: 15px 0;
+}
+.navIcon {
+  color: var(--lighter);
+  font-size: 40px;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  right: 2%;
+  z-index: 10;
+  position: fixed;
+}
+.burgerLogo {
+  color: var(--lighter);
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+/* media 480 */
+@media screen and (min-width: 481px) {
+  .mainWrapper {
+    display: none;
+  }
+  .navIcon {
+    display: none;
+  }
+}

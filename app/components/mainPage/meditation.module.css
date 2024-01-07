@@ -1,0 +1,55 @@
+.backgroundCircle {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  z-index: -1;
+}
+
+.meditationPhoto {
+  padding-top: 200px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  margin-top: 100px;
+}
+
+/* // media  */
+
+/* media 1920 */
+
+/* media 1200 */
+
+/* media 1024 */
+
+@media screen and (max-width: 1024px) {
+  .backgroundCircle {
+    height: 300px;
+    width: 300px;
+    top: 40%;
+  }
+
+  .meditationPhoto {
+    padding-top: 200px;
+  }
+}
+
+/* media 768 */
+
+/* media 480 */
+@media (max-width: 480px) {
+  .backgroundCircle {
+    height: 200px;
+    width: 200px;
+    top: 50%;
+  }
+}
+
+/* media 320 */

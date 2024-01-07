@@ -1,0 +1,55 @@
+/* re using styles */
+.wrapper {
+  min-height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--light);
+  padding-top: 30px;
+}
+.imageDiv {
+  min-height: 200px;
+  width: 40%;
+}
+.infoDiv {
+  width: 40%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .imageDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoDiv {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+/* abowe needed */
+
+/* In case if i had no project or course */
+.someText {
+  font-size: 14px;
+  color: var(--lighter);
+  text-align: center;
+  padding-bottom: 20px;
+}
+.fbLink {
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: 200;
+  text-align: center;
+}

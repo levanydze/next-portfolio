@@ -1,0 +1,45 @@
+.wrapper {
+  height: 20px;
+  margin-top: 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 0%;
+  left: 50%;
+  color: var(--lighter);
+}
+
+.menuWrapper {
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+/* // media  */
+
+/* media 768 */
+@media screen and (max-width: 768px) {
+  .menuWrapper {
+    font-size: 13px;
+  }
+}
+
+/* media 480 */
+@media screen and (max-width: 480px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+/* // media  */
+
+/* media 1920 */
+
+/* media 1200 */
+
+/* media 1024 */
+
+/* media 768 */
+
+/* media 480 */
+
+/* media 320 */
