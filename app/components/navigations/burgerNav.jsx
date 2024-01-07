@@ -47,6 +47,8 @@ export default function BurgerNav() {
           >
             PHOTOGRAPHY
           </Link>
+
+          {/* 12 */}
           <Link
             onClick={navClose}
             className={styles.menuList}
