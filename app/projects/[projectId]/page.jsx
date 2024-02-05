@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { IoMdArrowRoundBack } from "react-icons/io";
+
 import Titles from "./components/titles";
 import PhotoInfo from "./components/photoInfo";
 import styles from "./page.module.css";
@@ -41,7 +44,12 @@ export default async function Project({ params }) {
           />
         </div>
       ) : (
-        <p className={styles.infoNotFound}> No Data Found</p>
+        <div className={styles.notFoundWrap}>
+          <p className={styles.infoNotFound}>Data not found</p>
+          <Link href="./">
+            <p className={styles.back}>Back to projects</p>
+          </Link>
+        </div>
       )}
     </main>
   );

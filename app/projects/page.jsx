@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "./card";
 import styles from "./page.module.css";
-import { getProjects, getFilteredProjects } from "../../lib/projectsData"; // esec egari
+import { getProjects } from "../../lib/projectsData";
 
 export default async function ProjectsPage() {
   const projects = await getProjects();
