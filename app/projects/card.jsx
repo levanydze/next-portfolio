@@ -18,7 +18,7 @@ export default function Card({
   return (
     <div
       className={`${styles.mainWrapper} ${filter ? styles.important : ""} ${
-        best ? styles.best : ""
+        best && filter ? styles.best : ""
       }`}
     >
       <Link className={styles.linkWrapper} href={`/projects/${id}`}></Link>
