@@ -12,6 +12,9 @@
 .important {
   background-color: rgb(164, 195, 207);
 }
+.best {
+  background-color: rgb(75, 189, 104);
+}
 
 .cardWrapper {
   height: 230px;
@@ -23,9 +26,6 @@
 .mainWrapper:hover {
   scale: 1.12;
   border: 1px solid var(--darker);
-}
-
-.infoWrapper {
 }
 
 .linkWrapper {

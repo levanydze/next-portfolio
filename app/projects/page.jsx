@@ -14,6 +14,7 @@ export default async function ProjectsPage() {
       <div className={styles.mapWrapper}>
         {projects
           .filter((project) => project.important)
+          .reverse()
           .map((project, index) => (
             <div key={project.id}>
               <Card {...project} filter={true} />

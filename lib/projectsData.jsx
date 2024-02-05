@@ -1,7 +1,7 @@
 export async function getProjects() {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatao.json",
+      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatas.json",
       { cache: "no-store" }
     );
     const data = await response.json();
@@ -15,7 +15,7 @@ export async function getProjects() {
 export async function getProject(id) {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatao.json",
+      "https://raw.githubusercontent.com/levanydze/portfoliosupport/main/projectDatas.json",
       { cache: "no-store" }
     );
     const data = await response.json();
