@@ -12,11 +12,14 @@
   text-decoration: underline;
   font-weight: 300;
   font-size: 18px;
+  color: var(--lightest);
 }
 
 .detDescription {
   font-size: 14px;
   display: flex;
+  color: var(--lighter);
+  padding-top: 10px;
 }
 
 .iconLinkWrapper {
