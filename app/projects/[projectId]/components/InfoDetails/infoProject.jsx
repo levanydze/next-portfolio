@@ -35,8 +35,8 @@ export default function InfoProject({
             <div>
               <Link href={github}>
                 <p className={styles.iconLink}>
-                  &lt; <span>Github </span>&gt; Git Code{" "}
-                  <span>&lt;/Github&gt;</span>
+                  &lt; <span>Github </span>&gt; Git Code &lt;/
+                  <span>Github</span>&gt;
                 </p>
               </Link>
               <Link href={projectWeb}>
