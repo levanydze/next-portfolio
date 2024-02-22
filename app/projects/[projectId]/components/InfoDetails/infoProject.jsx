@@ -34,12 +34,13 @@ export default function InfoProject({
             ></Image>
             <div>
               <Link href={github}>
-                <p className={styles.iconLink}>Link to Github code</p>
+                <p className={styles.iconLink}>
+                  &lt; <span>Github </span>&gt; Git Code{" "}
+                  <span>&lt;/Github&gt;</span>
+                </p>
               </Link>
               <Link href={projectWeb}>
-                <p className={styles.iconLink}>
-                  Link to actual web page of the project
-                </p>
+                <p className={styles.iconLink}>www.This-Project.com</p>
               </Link>
             </div>
           </div>
