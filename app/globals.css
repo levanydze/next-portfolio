@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  --primaryColor: rgb(255, 255, 255);
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -16,6 +17,8 @@
   --darkest: rgb(0, 0, 0);
   --card: rgb(255, 247, 255);
   --undermenu: rgb(157, 0, 0);
+  --green: green;
+  --textDark: rgb(0, 0, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,4 +58,21 @@ body {
 
 .active {
   color: var(--lightest);
+}
+
+.button1 {
+  background-color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  padding: 8px 20px;
+  border-radius: 8px;
+  width: fit-content;
+  transition: 0.2s;
+  color: var(--textLight);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button1:hover {
+  background-color: var(--secondaryColor);
+  border: 1px solid var(--primaryColor);
 }
