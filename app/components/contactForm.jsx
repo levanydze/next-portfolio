@@ -41,7 +41,7 @@ export const ContactForm = () => {
             name="message"
             placeholder="Your message here"
           />
-          <input className={styles.button} type="submit" value="Send" />
+          <input className={styles.button1} type="submit" value="Send" />
         </form>
       </div>
     </>
