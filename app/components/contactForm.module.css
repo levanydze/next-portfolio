@@ -79,6 +79,15 @@
   margin: 0 auto;
   font-size: 20px;
   width: 200px;
+  background-color: var(--lightest);
+  border-radius: 10px;
+  transition: 0.2s all;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.buttonSend:hover {
+  background-color: var(--darker);
+  color: var(--lightest);
 }
 
 @media (max-width: 800px) {
