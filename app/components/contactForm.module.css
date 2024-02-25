@@ -1,4 +1,4 @@
-/* .formHead {
+.formHead {
   text-align: center;
   margin-top: 100px;
 }
@@ -63,7 +63,6 @@
 /* .miniInput {
 } */
 
-/*
 .input:focus {
   outline: none;
   border: 2px solid var(--primaryColor);
@@ -87,4 +86,4 @@
     flex-direction: column;
     gap: 5px;
   }
-} */
+}
