@@ -28,7 +28,7 @@ export default function ContactForm() {
     <>
       <div className={styles.formHead}>
         <h2>Contact Us</h2>
-        <h3>LETS GET IN TOUCH</h3>
+        <h3>LET&apos;S GET IN TOUCH</h3>
         <p className="twoLines"></p>
       </div>
       <form
@@ -63,7 +63,7 @@ export default function ContactForm() {
         />
       </form>
       <div className={emailSent ? styles.formSent : styles.hide}>
-        <h6>OK</h6>
+        <h6>Thank you for your message</h6>
       </div>
     </>
   );
