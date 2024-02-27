@@ -56,7 +56,11 @@ export default function ContactForm() {
           name="message"
           placeholder="Your message here"
         />
-        <input className={` ${styles.buttonSend}`} type="submit" value="Send" />
+        <input
+          className={`button1 ${styles.buttonSend}`}
+          type="submit"
+          value="Send"
+        />
       </form>
       <div className={emailSent ? styles.formSent : styles.hide}>
         <h6> Thank you for your message</h6>
