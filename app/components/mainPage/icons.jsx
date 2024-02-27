@@ -18,6 +18,7 @@ import iconGit from "@/public/images/icons/git.png";
 import iconVs from "@/public/images/icons/vs.png";
 import iconNode from "@/public/images/icons/node.png";
 import iconXd from "@/public/images/icons/xd.webp";
+import ts from "@/public/images/icons/ts.png";
 
 export default function Icons() {
   return (
@@ -37,6 +38,7 @@ export default function Icons() {
           height={200}
           alt="sass"
         ></Image>
+
         <Image
           className={styles.iconHtml}
           src={iconHtml}
@@ -53,6 +55,7 @@ export default function Icons() {
           height={200}
           alt="javascript"
         ></Image>
+
         <Image
           className={styles.iconTailwind}
           src={iconTailwind}
@@ -113,7 +116,7 @@ export default function Icons() {
       <div className={`${styles.lineSex} ${styles.iconLines}`}>
         <Image
           className={styles.iconVs}
-          src={iconVs}
+          src={ts}
           width={200}
           height={200}
           alt="visualstudiocode"
