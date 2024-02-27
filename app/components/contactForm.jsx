@@ -28,7 +28,7 @@ export default function ContactForm() {
     <>
       <div className={styles.formHead}>
         <h2>Contact Us</h2>
-        <h3>LET'S GET IN TOUCH</h3>
+        <h3>LETS GET IN TOUCH</h3>
         <p className="twoLines"></p>
       </div>
       <form
