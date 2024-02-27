@@ -63,7 +63,7 @@ export default function ContactForm() {
         />
       </form>
       <div className={emailSent ? styles.formSent : styles.hide}>
-        <h6> Thank you for your message</h6>
+        <h6>OK</h6>
       </div>
     </>
   );
