@@ -23,12 +23,12 @@ export default async function ProjectsPage() {
       </div>
 
       {/* down here you find map of all projects */}
-      <h2 className="headText">from walking sticks to web development 2023</h2>
+      {/* <h2 className="headText">from walking sticks to web development 2023</h2>
       <div className={styles.mapWrapper}>
         {projects.map((project, index) => (
           <div key={project.id}>{project.id ? <Card {...project} /> : ""}</div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
