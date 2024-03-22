@@ -19,7 +19,7 @@ export default function Study({
 }) {
   return (
     <div>
-      {/* <p className={styles.sectionNote}>The course I went through in {date}</p>
+      <p className={styles.sectionNote}>The course I went through in {date}</p>
       <Link href={courseLink}>
         <h4 className={styles.sectionTitle}>{course}</h4>
       </Link>
@@ -46,7 +46,7 @@ export default function Study({
             <p className={styles.iconLink}>Link to course</p>
           </Link>
         )}
-      </div> */}
+      </div>
     </div>
   );
 }
