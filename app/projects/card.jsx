@@ -40,18 +40,18 @@ export default function Card({
           </Link>
         </div>
       </div>
-      <div className={styles.liveGit}>
-        <Link href={projectWeb ? projectWeb : ""} className={styles.live}>
-          {projectWeb ? "View Live" : ""}
-        </Link>
-        <Link href={`/projects/${id}`}>Wiev More</Link>
-      </div>
       <div className={styles.titleDesc}>
         <div className={styles.title}>{title}</div>
         <p>
           {description.length > 50 ? description.substring(0, 50) : description}
           ...
         </p>
+      </div>
+      <div className={styles.liveGit}>
+        <Link href={projectWeb ? projectWeb : ""} className={styles.live}>
+          {projectWeb ? "View Live" : ""}
+        </Link>
+        <Link href={`/projects/${id}`}>Wiev More</Link>
       </div>
     </div>
   );
