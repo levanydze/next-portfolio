@@ -23,7 +23,7 @@ export default async function ProjectsPage() {
       </div>
 
       {/* down here you find map of all projects */}
-      <h2 className="headText">
+      <h2 className={`headText ${styles.headline}`}>
         from walking sticks to web development 2023 - 2024
       </h2>
       <div className={styles.mapWrapper}>

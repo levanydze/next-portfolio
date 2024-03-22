@@ -8,6 +8,10 @@
   margin: 0 auto 100px auto;
 }
 
+.headline {
+  margin-bottom: 70px;
+}
+
 @media (max-width: 480px) {
   .mapWrapper {
     margin: 0 auto;
