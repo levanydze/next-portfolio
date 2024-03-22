@@ -41,8 +41,8 @@ export default function Card({
         </div>
       </div>
       <div className={styles.liveGit}>
-        <Link href={projectWeb} className={styles.live}>
-          Wiev Live
+        <Link href={projectWeb ? projectWeb : ""} className={styles.live}>
+          {projectWeb ? "View Live" : ""}
         </Link>
         <Link href={`/projects/${id}`}>Wiev More</Link>
       </div>
