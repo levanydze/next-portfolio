@@ -51,7 +51,7 @@ export default function Card({
         <Link href={projectWeb ? projectWeb : ""} className={styles.live}>
           {projectWeb ? "View Live" : ""}
         </Link>
-        <Link href={`/projects/${id}`}>Wiev More</Link>
+        <Link href={`/projects/${id}`}>View More</Link>
       </div>
     </div>
   );
