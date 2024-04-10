@@ -43,8 +43,8 @@ export default function Card({
           <p className={styles.date}>{date}</p>
           <div className={styles.title}>{title}</div>
           <p className={styles.description}>
-            {description.length > 80
-              ? description.substring(0, 80) + "..."
+            {description.length > 60
+              ? description.substring(0, 60) + "..."
               : description}
           </p>
           <div className={styles.liveGit}>
