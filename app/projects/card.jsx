@@ -20,13 +20,13 @@ export default function Card({
   return (
     <div className={styles.mainWrapper}>
       <div className={styles.cardWrapper}>
-        <h3
+        {/* <h3
           className={`${styles.date} ${filter ? styles.important : ""} ${
             best && filter ? styles.best : ""
           }`}
         >
           {date}
-        </h3>
+        </h3> */}
         <div className={styles.infoWrapper}></div>
         <div className={styles.photoDiv}>
           <Link className={styles.linkWrapper} href={`/projects/${id}`}>
@@ -39,19 +39,21 @@ export default function Card({
             ></Image>
           </Link>
         </div>
-      </div>
-      <div className={styles.titleDesc}>
-        <div className={styles.title}>{title}</div>
-        <p>
-          {description.length > 50 ? description.substring(0, 50) : description}
-          ...
-        </p>
-      </div>
-      <div className={styles.liveGit}>
-        <Link href={projectWeb ? projectWeb : ""} className={styles.live}>
-          {projectWeb ? "View Live" : ""}
-        </Link>
-        <Link href={`/projects/${id}`}>View More</Link>
+        <div className={styles.titleDesc}>
+          <p className={styles.date}>{date}</p>
+          <div className={styles.title}>{title}</div>
+          <p className={styles.description}>
+            {description.length > 80
+              ? description.substring(0, 80) + "..."
+              : description}
+          </p>
+          <div className={styles.liveGit}>
+            <Link href={projectWeb ? projectWeb : ""} className={styles.live}>
+              {projectWeb ? "View Live" : ""}
+            </Link>
+            <Link href={`/projects/${id}`}>View More</Link>
+          </div>
+        </div>
       </div>
     </div>
   );

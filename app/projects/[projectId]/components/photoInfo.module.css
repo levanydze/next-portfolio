@@ -19,6 +19,11 @@
   flex-direction: column;
   /* gap: 20px; */
 }
+.viewLive {
+  text-decoration: underline;
+  font-weight: 300;
+  margin-bottom: -20px;
+}
 @media (max-width: 800px) {
   .wrapper {
     flex-direction: column;

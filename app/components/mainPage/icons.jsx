@@ -15,7 +15,6 @@ import iconJs from "@/public/images/icons/js.png";
 import iconSass from "@/public/images/icons/sass.png";
 import iconTailwind from "@/public/images/icons/tailwind.png";
 import iconGit from "@/public/images/icons/git.png";
-import iconVs from "@/public/images/icons/vs.png";
 import iconNode from "@/public/images/icons/node.png";
 import iconXd from "@/public/images/icons/xd.webp";
 import ts from "@/public/images/icons/ts.png";

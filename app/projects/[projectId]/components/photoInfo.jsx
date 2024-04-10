@@ -51,6 +51,12 @@ export default function PhotoInfo({
             priority
           ></Image>
         )}
+
+        {projectWeb ? (
+          <Link className={styles.viewLive} href={projectWeb}>
+            View Live
+          </Link>
+        ) : null}
       </div>
 
       {/* information section */}
